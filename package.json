@@ -2,18 +2,16 @@
   "name": "lc-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.ts",
+  "main": "src/index.js",
   "scripts": {
-    "test": "node ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Anthony Thach",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "@discordjs/rest": "^2.2.0",
-    "chalk": "^4.1.2",
-    "discord-api-types": "^0.37.79",
     "discord.js": "^14.14.1",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
   }
 }
